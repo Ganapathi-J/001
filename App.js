@@ -40,7 +40,7 @@ export default function CustomerDT() {
   const [rows, setRows] = useState([]);
 
   const [columnVisibilityModel, setColumnVisibilityModel] = React.useState({
-    amount : false
+    amount : true
   })
 
   const getRowClassName = (params) => {
